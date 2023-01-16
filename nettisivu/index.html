@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+    <title>CV</title>
+
+</head>
+<body>
+<section id="banner">
+<div class="banner-text">
+    <h1>Hi, I am Iiro Candelin</h1>
+    <p>I am information processing science student at University of Oulu</p>
+</div>
+</section>
+    <header>
+       <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+       </div>
+       <div id="menuBtn">
+        <img src="../images/hamburger-icon-white-16.jpg" id="menu">
+       </div>
+
+       <!--About-->
+
+       <section id="about">
+        <div class="title-text">
+            <p>About</p>
+            <h2>My name is Iiro and I am 24- year old information processing science student from Oulu. 
+                After working at McDonald's, I have accumulated useful skills that are needed in working life. As a shift manager, I have acquired problem-solving skills, systematization, and the ability to work under pressure. 
+                I have always gotten along with all kinds of people and my teamwork skills are excellent, but I also manage independent responsibilities naturally.
+                I was a summer employee at Nokia last summer and it brought me my first exposure to the workplace in the IT industry. 
+                I'm interested in gaming, cyber security and programming.
+            </h2>
+            <h1>
+                Link and QR code to my Resume
+            </h1>
+        </div>
+        <div class="QR-code">
+            <img src="../images/qrchimpX512.png">
+        </div>
+        <div class="about-img">
+            <img src="../images/cccvvv.png">
+        </div>
+
+       </section>
+
+
+
+       <!-- .skills-->
+
+       <section id="skills">
+
+        <div class="inner">
+            <div class="header"> 
+                <h1>My Skills</h1>
+            </div>
+            <div class="container">
+                <div class="skill-box">
+                    <div class="skill-title">
+                        <div class="imag">
+                                <img src="../images/HTML5.png" class="skill-icon">
+                        </div>
+                        <h3>HTML5</h3>
+                    </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ullam odio impedit sequi laboriosam tempore possimus omnis minima reiciendis, 
+                            exercitationem iusto iste fugit! Dicta aspernatur accusantium in soluta, animi libero!</p>
+                </div>
+            
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="imag">
+                            <img src="../images/CSS.png"  class="skill-icon">
+                    </div>
+                    <h3>CSS</h3>
+                </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ullam odio impedit sequi laboriosam tempore possimus omnis minima reiciendis, 
+                        exercitationem iusto iste fugit! Dicta aspernatur accusantium in soluta, animi libero!</p>
+            
+        </div>
+        <div class="skill-box">
+            <div class="skill-title">
+                <div class="imag">
+                        <img src="../images/javaa.png"  class="skill-icon">
+                </div>
+                <h3>Java</h3>
+            </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ullam odio impedit sequi laboriosam tempore possimus omnis minima reiciendis, 
+                    exercitationem iusto iste fugit! Dicta aspernatur accusantium in soluta, animi libero!</p>
+        </div>
+ 
+        <div class="skill-box">
+            <div class="skill-title">
+                <div class="imag">
+                        <img src="../images/javascri.png"  class="skill-icon">
+                </div>
+                <h3>JavaScript</h3>
+            </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ullam odio impedit sequi laboriosam tempore possimus omnis minima reiciendis, 
+                    exercitationem iusto iste fugit! Dicta aspernatur accusantium in soluta, animi libero!</p>
+                </div>
+            </div>
+     
+
+    </section>
+
+                      
+        
+        <!-- Contact -->
+
+       <section id="contact">
+
+        <div class="contact-section">
+            <div class="inner-width">
+                <h1>Get in touch</h1>
+                <input type="text" class="name" placeholder="Your Name">
+                <input type="email" class="email" placeholder="Your Email">
+                <textarea rows="8" placeholder="Message" class="message"></textarea>
+                <button>Get in touch</button>
+            </div>
+        </div>
+
+       </section>
+
+       <script>
+        var manuBtn = document.getElementById("menuBtn")
+        var manuBtn = document.getElementById("sideNav")
+        var manuBtn = document.getElementById("menu")
+
+        sideNav.style.right == "-250px";
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "cancel.png";
+            }
+            else {
+                sideNav.style.right = "-250px";
+                menu.src = "hamburger-icon-white-16.jpg";
+            }
+        }
+       </script>
+    </header>
+</body>
+</html>
